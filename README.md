@@ -18,4 +18,6 @@ CREATE TABLE users (
 );
 
 ### Collaboration and Contact
-🚀 Embark on your next web project with confidence! If you have a vision waiting to be realized or need assistance with web development, look no further. 😊 I specialize in trending technologies such as Python, JavaScript, React, Node.js, and PHP. Let's collaborate and bring your ideas to life! 💡 Reach out to me and let's make something incredible together. 🌟
+🚀 Begin your next web project with confidence! If you have a vision waiting to be realized or need assistance with web development, look no further. 
+😊 I specialize in trending technologies such as Python, JavaScript, React, Node.js, and PHP. Let's collaborate and bring your ideas to life! 
+💡 Reach out to me and let's make something incredible together. 🌟
