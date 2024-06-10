@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail-item {
+    position: relative;
+    margin: 10px;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.thumbnail-actions {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button, .download-button {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.delete-button:hover, .download-button:hover {
+    background: darkred;
+}
+
+.download-button {
+    background: green;
+}
+
+.download-button:hover {
+    background: darkgreen;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 50px auto;
+}
+
+input[type="file"], input[type="submit"], input[type="text"], input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
